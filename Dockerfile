@@ -6,6 +6,6 @@ COPY * ./
 
 RUN go build /main.go
 
-RUN .main input.txt
+RUN ./main input.txt
 
 CMD [ "cat", "response.txt" ]
