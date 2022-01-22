@@ -1,11 +1,11 @@
 FROM golang:1.16-alpine
 
-WORKDIR /app
+WORKDIR /FindTheWord
 
-COPY FindTheWord ./
+COPY * ./
 
-RUN go build /FindTheWord/main.go
+RUN go build /main.go
 
-RUN ./FindTheWord/main input.txt
+RUN .main input.txt
 
 CMD [ "cat", "response.txt" ]
