@@ -1,6 +1,6 @@
 FROM golang:1.16-alpine
 
-WORKDIR /FindTheWord
+WORKDIR $GOPATH/src/FindTheWord
 
 COPY * ./
 
