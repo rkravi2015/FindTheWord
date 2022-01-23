@@ -1,0 +1,3 @@
+abc found at x=0, y=0, count=0 - horizontal
+abc found at x=4, y=0, count=0 - vertical
+abc found at x=5, y=0, count=2 - vertical
