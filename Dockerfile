@@ -4,7 +4,7 @@ WORKDIR $GOPATH/src/FindTheWord
 
 COPY * ./
 
-RUN go build /main.go
+RUN go build main.go
 
 RUN ./main input.txt
 
